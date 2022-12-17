@@ -1,0 +1,22 @@
+{
+  "name": "faker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "mysql": "^2.18.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.11.16"
+  }
+}
